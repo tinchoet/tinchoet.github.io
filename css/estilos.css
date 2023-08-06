@@ -1,0 +1,86 @@
+body{
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    
+}
+
+
+/* lista de navegacion */
+
+ul{
+    list-style: none;
+}
+
+.horizontal {
+    display: flex;
+    list-style-type: none;
+    
+  }
+
+  .horizontal li {
+    margin-right: 10px;
+  }
+
+
+
+  /* container para aplicar el horizontal en la navegacion */
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+#experiencia{
+    color: #000000;
+}
+
+#habilidades{
+    color: #000000;
+}
+
+
+
+
+/* inicia estilos de la tabla */
+
+.educacion table{
+    text-align: center;
+}
+
+.tabla{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1px;
+    border-color: #000000;
+    border: solid 1px;
+    
+}
+
+
+
+
+/* Estilo formulario */
+
+.contacto form{
+
+    text-align: center;
+}
+
+#contacto{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1px;
+    border-color: #000000;
+    border: solid 1px;
+}
